@@ -1,0 +1,6 @@
+{
+    "mongoURI": "mongodb+srv://writeshittu:geology11@cluster0.kmurb.mongodb.net/test?retryWrites=true&w=majority",
+    "jwtSecret": "secret"
+
+}
+
