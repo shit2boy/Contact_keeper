@@ -9,10 +9,6 @@ connectDB();
 //init midddleware
 app.use(express.json({ extended: false }));
 
-app.get("/", (req, res) =>
-  res.json({ name: "Akeem", msg: "Hello Akeem, you gonna be fine" })
-);
-
 //define routes
 
 app.use("/api/users", require("./routes/users"));
